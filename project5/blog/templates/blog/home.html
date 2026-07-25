@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>#1 Template Basic</title>
+  </head>
+  <body>
+    <h1> Template Basic</h1>
+  
+  
+   
+    <p>This is a simple template to demonstrate basic HTML structure and comments.</p>
+    <p>Welcome to the blog home page!</p>
+
+    <p>Name:{{name}}</p>
+    <p>age:{{age}}</p>
+    <p>skills:{{skills}}</p>
+    <p>skill:{{skills.0}}</p>
+    <p>user:{{user.name}}</p>
+    <p>User age:{{user.age}}</p>
+
+    <p>Blog:{{blog}}</p>
+    <P>blogs:{{blog.title}}</P>
+    <p>author:{{blog.author.name}}</p>
+    <p>authors:{{blog.author}}</p>
+    <p>context:{{blog.content}}</p>
+    <p>context:{{blog.content | safe}}</p>
+
+
+    <p>created at :{{blog.create_at}}</p>
+
+
+   
+
+    
+  </body>
+</html>
